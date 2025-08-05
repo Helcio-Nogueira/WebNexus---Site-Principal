@@ -1,0 +1,143 @@
+/* Tema com base escura e destaque neon azul-ciano mais suave */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  color: #e4fafe;
+  background-color: #0d1117;
+  /* background-image: url("Assets/Fundo.png"); */
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: auto;
+  line-height: 1.6;
+  filter: none;
+  scroll-behavior: smooth;
+}
+
+header,
+footer,
+section {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+.hero {
+  text-align: center;
+  background: linear-gradient(135deg, #00d0ffbc, #007fff);
+  color: #ffffff;
+  padding: 100px 20px;
+}
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: #00eefffc;
+  text-shadow: 0 0 4px rgba(0, 255, 270, 0.4);
+}
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+.cta {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.cta a {
+  background: #00ffe0;
+  color: #0d1117;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.cta a:hover {
+  background: #007fff;
+  color: #ffffff;
+}
+section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #00f0ff;
+}
+
+.sobre,
+.servicos,
+.portfolio,
+.processo,
+.depoimentos {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-top: 60px;
+  background-color: #161b22;
+  border-radius: 12px;
+  padding: 40px 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  color: #e4fafe;
+}
+.grid {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+.servico,
+.projeto,
+.passo,
+.depoimento {
+  background: #1e2530;
+  padding: 20px;
+  border-radius: 12px;
+  transition: transform 0.3s;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  color: #e4fafe;
+}
+.servico:hover,
+.projeto:hover,
+.passo:hover {
+  transform: scale(1.03);
+}
+.servico h3,
+.passo h3,
+.depoimento strong {
+  margin-top: 10px;
+}
+.portfolio img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.cta-final {
+  margin-top: 60px;
+  text-align: center;
+  background: linear-gradient(135deg, #00d0ffbc, #007fff);
+  color: #ffffff;
+  padding: 80px 20px;
+}
+.cta-final h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #00f0ff;
+  text-shadow: 0px 0px 4px rgba(0, 255, 255, 0.4);
+}
+footer {
+  font-size: 0.875rem;
+  text-align: center;
+  color: #7d8a9a;
+  margin-top: 60px;
+}
+footer a {
+  color: #00f0ff;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+  color: #00cfff;
+}
