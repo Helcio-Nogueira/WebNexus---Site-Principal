@@ -87,6 +87,13 @@ section h2 {
   color: #00f0ff;
 }
 
+.sobre p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
 .sobre,
 .servicos,
 .portfolio,
@@ -101,6 +108,7 @@ section h2 {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
   color: #e4fafe;
 }
+
 .grid {
   display: grid;
   gap: 30px;
