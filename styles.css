@@ -8,15 +8,24 @@ body {
   font-family: "Inter", sans-serif;
   color: #e4fafe;
   background-color: #0d1117;
-  /* background-image: url("Assets/Fundo.png"); */
+  background-image: url("Assets/Fundo.png");
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: auto;
   line-height: 1.6;
   filter: none;
-  scroll-behavior: smooth;
 }
-
+.logo {
+  max-width: 100px;
+  border-radius: 12px;
+  display: block;
+  margin: 0 auto 30px auto;
+  filter: drop-shadow(0 0 6px rgba(0, 255, 255, 0.3));
+  transition: transform 0.3s ease;
+}
+.logo:hover {
+  transform: scale(1.05);
+}
 header,
 footer,
 section {
@@ -26,7 +35,7 @@ section {
 }
 .hero {
   text-align: center;
-  background: linear-gradient(135deg, #00d0ffbc, #007fff);
+  background: linear-gradient(135deg, #00cfff, #007fff);
   color: #ffffff;
   padding: 100px 20px;
 }
@@ -34,9 +43,18 @@ section {
   font-size: 3rem;
   font-weight: 800;
   margin-bottom: 20px;
-  color: #00eefffc;
-  text-shadow: 0 0 4px rgba(0, 255, 270, 0.4);
+  color: #00f0ff;
+  text-shadow: 0 0 4px rgba(0, 255, 255, 0.4);
 }
+
+.hero h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: #00f0ff;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
 .hero p {
   font-size: 1.25rem;
   margin-bottom: 30px;
@@ -98,6 +116,7 @@ section h2 {
   transition: transform 0.3s;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
   color: #e4fafe;
+  /* justify-content: center; */
 }
 .servico:hover,
 .projeto:hover,
@@ -117,7 +136,7 @@ section h2 {
 .cta-final {
   margin-top: 60px;
   text-align: center;
-  background: linear-gradient(135deg, #00d0ffbc, #007fff);
+  background: linear-gradient(135deg, #00cfff, #007fff);
   color: #ffffff;
   padding: 80px 20px;
 }
@@ -125,7 +144,7 @@ section h2 {
   font-size: 2.2rem;
   font-weight: 700;
   color: #00f0ff;
-  text-shadow: 0px 0px 4px rgba(0, 255, 255, 0.4);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
 }
 footer {
   font-size: 0.875rem;
